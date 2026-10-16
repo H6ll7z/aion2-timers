@@ -1,0 +1,14 @@
+name: aion2_timers
+description: Notifications for Aion 2 timed events.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.4.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^19.4.0
+  timezone: ^0.10.0
+  shared_preferences: ^2.3.0
+flutter:
+  uses-material-design: true
